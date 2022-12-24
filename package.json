@@ -1,0 +1,26 @@
+{
+  "name": "electron-typescript",
+  "version": "1.0.0",
+  "description": "Electron application based on typeScript",
+  "main": "app/electron/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "start": "electron dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DipokalLab/electron-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DipokalLab/electron-typescript/issues"
+  },
+  "homepage": "https://github.com/DipokalLab/electron-typescript#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "typescript": "^4.9.4"
+  }
+}
